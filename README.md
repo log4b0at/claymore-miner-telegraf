@@ -12,7 +12,7 @@ Example in my influxdb cloud :
 
 1. Make sure `-mport 3333` option is present on your **claymore command**. (Set API port to 3333, if 0, API disabled)
 
-2. Make sure the `node` command is available from path.
+2. Make sure the `node` command is available from path. (download node https://nodejs.org/en/)
 
 3. Download claymore.js from this repo
 
