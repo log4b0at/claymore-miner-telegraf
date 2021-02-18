@@ -67,6 +67,6 @@ List of all metrics available: (18/02/2021) (Claymore v15.0)
 
 The script can be configured by modifying constants on the top of the file.
 
-`IP` The IP address to the Claymore Miner API.
-`PORT` Port used by the Claymore Miner API. (`-mport` option in Claymore v15)
-`METRICS` List of metrics included in the json output, remove metrics you don't need to save bandwidth and storage space.
+- `IP` The IP address to the Claymore Miner API.
+- `PORT` Port used by the Claymore Miner API. (`-mport` option in Claymore v15)
+- `METRICS` List of metrics included in the json output, remove metrics you don't need to save bandwidth and storage space.
