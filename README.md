@@ -17,7 +17,7 @@ Example in my influxdb cloud :
 3. Download claymore.js from this repo
 
 4. Add this at the end of your **telegraf configuration**: (Change claymore.js path to whatever you want in the command)
-```
+```ini
  [[inputs.exec]]
   command = "node claymore.js"
   name_suffix = "_claymore"
