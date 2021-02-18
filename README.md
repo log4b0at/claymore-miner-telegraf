@@ -1,4 +1,4 @@
-# Claymore Miner API Telegraf script bridge
+# Claymore Miner API Telegraf Script Bridge
 
 ## Introduction
 
