@@ -32,6 +32,8 @@ To check if the API work with the script, run yourself the command `node claymor
 This script was only tested with Claymore v15.0
 
 ## Details
+
+### Metrics available
 List of all metrics available: (18/02/2021) (Claymore v15.0)
 - `hashrate` - total ETH hashrate in kH/s
 - `dcr_hashrate` - total DCR hashrate in kH/s
@@ -60,3 +62,11 @@ List of all metrics available: (18/02/2021) (Claymore v15.0)
 - `dcr_pool_switches` - number of DCR pool switches
 - `pools` - current mining pools
 - `power` - total power consumption of GPUs.
+
+### Configuration
+
+The script can be configured by modifying constants on the top of the file.
+
+`IP` The IP address to the Claymore Miner API.
+`PORT` Port used by the Claymore Miner API. (`-mport` option in Claymore v15)
+`METRICS` List of metrics included in the json output, remove metrics you don't need to save bandwidth and storage space.
